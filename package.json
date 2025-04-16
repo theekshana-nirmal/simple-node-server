@@ -1,0 +1,33 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "This project is a simple HTTP server built using Node.js, created as part of my learning journey in web development. The primary purpose of this project is educational, serving as a hands-on exercise to understand the fundamentals of server-side programming with Node.js.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "http-server",
+    "simple-server",
+    "learning-project",
+    "beginner",
+    "backend",
+    "server",
+    "node",
+    "tutorial",
+    "educational",
+    "web-server",
+    "javascript",
+    "express-alternative",
+    "basic-server"
+  ],
+  "author": "Theekshana Nirmal",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
