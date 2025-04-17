@@ -5,6 +5,10 @@
 
 A simple HTTP server built using Node.js's built-in `http` module. This project demonstrates basic routing and serves static HTML files. It is designed as a learning exercise to understand the fundamentals of server-side programming and routing before transitioning to more advanced frameworks like Express.js.
 
+![Response from the /about Path](./public/screenshot.png)
+
+> *This screenshot illustrates the output when making a GET request to the `/about` path of the Node.js HTTP server using the Postman extension within VS Code. The server correctly responds with a basic HTML page, demonstrating the routing functionality for the `/about` endpoint.*
+
 ## ✨ Features
 
 - Basic HTTP server implementation.
@@ -35,13 +39,11 @@ This project was created to:
    ```bash
    cd simple-node-server
    ```
-
 2. **Install dependencies:**
 
    ```bash
    npm install
    ```
-
 3. **Create a `.env` file:**
    Create a file named `.env` in the root directory of the project and add the following line:
 
@@ -50,19 +52,16 @@ This project was created to:
    ```
 
    *(You can change `3000` to any port you prefer)*
-
 4. **Create the `public` directory:**
    Inside the project root, create a folder named `public` and add the following files:
 
    - `index.html`: The homepage content.
    - `about.html`: The content for the `/about` route.
-
 5. **Start the server:**
 
    ```bash
    npm run dev
    ```
-
 6. **Access the server:**
    Open your web browser and navigate to:
 
@@ -88,4 +87,3 @@ This project was created to:
 - Transition to using the Express.js framework for more robust features and easier development.
 - Add middleware for logging and request parsing.
 - Explore serving static assets like CSS and JavaScript files.
-
